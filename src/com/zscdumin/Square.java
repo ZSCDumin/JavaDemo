@@ -1,3 +1,4 @@
+package com.zscdumin;
 
 public class Square implements Shape {
 	public double getA() {

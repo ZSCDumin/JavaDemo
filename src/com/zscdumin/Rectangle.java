@@ -1,3 +1,4 @@
+package com.zscdumin;
 
 public class Rectangle implements Shape {
 	private double a, b;              //添加长方形的长方形的属性

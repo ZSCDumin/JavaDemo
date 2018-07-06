@@ -3,7 +3,7 @@ package com.zscdumin;
 import java.util.Scanner;
 
 public class FactoryPatternDemo {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
 
 		double area = 0.0;
 		double perimer = 0.0;

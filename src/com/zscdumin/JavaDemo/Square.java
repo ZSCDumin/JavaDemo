@@ -1,4 +1,4 @@
-package com.zscdumin;
+package com.zscdumin.JavaDemo;
 
 public class Square implements Shape {
 	public double getA() {

@@ -1,4 +1,4 @@
-package com.zscdumin;
+package com.zscdumin.JavaDemo;
 
 public class Circle implements Shape {
 	private static final double PI = 3.14;

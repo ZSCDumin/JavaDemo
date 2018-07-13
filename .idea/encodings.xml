@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/src/com/zscdumin/Circle.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/zscdumin/Rectangle.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/zscdumin/Square.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/zscdumin/JavaDemo/Circle.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/zscdumin/JavaDemo/Rectangle.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/zscdumin/JavaDemo/Square.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/zscdumin/RedisTest/Demo.java" charset="UTF-8" />
   </component>
 </project>

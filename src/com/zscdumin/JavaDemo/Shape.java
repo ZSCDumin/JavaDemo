@@ -1,4 +1,4 @@
-package com.zscdumin;
+package com.zscdumin.JavaDemo;
 
 public interface Shape {
 	public double getArea();

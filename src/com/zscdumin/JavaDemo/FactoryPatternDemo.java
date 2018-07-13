@@ -1,4 +1,4 @@
-package com.zscdumin;
+package com.zscdumin.JavaDemo;
 
 import java.util.Scanner;
 
@@ -10,19 +10,19 @@ public class FactoryPatternDemo {
 
 		Scanner sc = new Scanner(System.in);
 		ShapeFactory shapeFactory = new ShapeFactory();
-		Circle circle = (Circle) shapeFactory.getShape("com.zscdumin.Circle");
+		Circle circle = (Circle) shapeFactory.getShape("com.zscdumin.JavaDemo.Circle");
 		circle.setR(sc.nextDouble());
 		area = circle.getArea();
 		perimer = circle.getPerimeter();
 		System.out.println(area + "---" + perimer);
 
-		Square square = (Square) shapeFactory.getShape("com.zscdumin.Square");
+		Square square = (Square) shapeFactory.getShape("com.zscdumin.JavaDemo.Square");
 		square.setA(sc.nextDouble());
 		area = square.getArea();
 		perimer = square.getPerimeter();
 		System.out.println(area + "---" + perimer);
 
-		Rectangle rectangle = (Rectangle) shapeFactory.getShape("com.zscdumin.Rectangle");
+		Rectangle rectangle = (Rectangle) shapeFactory.getShape("com.zscdumin.JavaDemo.Rectangle");
 		rectangle.setA(sc.nextDouble());
 		rectangle.setB(sc.nextDouble());
 		area = rectangle.getArea();
@@ -34,7 +34,7 @@ public class FactoryPatternDemo {
 		 * 反射
 		 */
 		try {
-			Class<?> circle1 = Class.forName("com.zscdumin.Circle");
+			Class<?> circle1 = Class.forName("com.zscdumin.JavaDemo.Circle");
 			Circle circle3 = (Circle) circle1.newInstance();
 			circle3.setR(2);
 			System.out.println(circle3.getArea());

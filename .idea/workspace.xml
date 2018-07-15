@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1449ab6-2aae-4dd9-8d3a-6df92dad7c07" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zscdumin/RedisTest/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zscdumin/MultiThreadTest/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zscdumin/MultiThreadTest/ThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zscdumin/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zscdumin/JavaDemo/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zscdumin/FactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zscdumin/JavaDemo/FactoryPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zscdumin/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zscdumin/JavaDemo/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zscdumin/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zscdumin/JavaDemo/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zscdumin/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zscdumin/JavaDemo/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zscdumin/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zscdumin/JavaDemo/Square.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,15 +14,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zscdumin/RedisTest/Demo.java">
+      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zscdumin/MultiThreadTest/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="17" column="81" lean-forward="true" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+            <state relative-caret-position="56">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPool.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zscdumin/MultiThreadTest/ThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="e#1175#1303#0" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +80,9 @@
         <option value="$PROJECT_DIR$/src/com/zscdumin/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/com/zscdumin/JavaDemo/Circle.java" />
         <option value="$PROJECT_DIR$/src/com/zscdumin/RedisTest/Demo.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/zscdumin/MultiThreadTest/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/zscdumin/MultiThreadTest/ThreadPool.java" />
       </list>
     </option>
   </component>
@@ -84,9 +96,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="868" />
+    <option name="y" value="25" />
+    <option name="width" value="1008" />
+    <option name="height" value="933" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -108,6 +121,40 @@
               <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zscdumin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zscdumin" type="462c0819:PsiDirectoryNode" />
+              <item name="MultiThreadTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zscdumin" type="462c0819:PsiDirectoryNode" />
+              <item name="MultiThreadTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zscdumin" type="462c0819:PsiDirectoryNode" />
+              <item name="MultiThreadTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Demo" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -118,13 +165,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/IdeaProjects/Java/JavaDemo/src/com/zscdumin/MultiThreadTest/Demo.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/LinuxShare/jedis-2.9.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -143,7 +191,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.ThreadPool">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zscdumin.MultiThreadTest.Demo" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zscdumin.MultiThreadTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zscdumin.RedisTest.Demo" />
       <module name="JavaDemo" />
@@ -165,13 +223,27 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zscdumin.MultiThreadTest.ThreadPool" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zscdumin.MultiThreadTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.FactoryPatternDemo" />
       <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Demo (1)" />
+      <item itemvalue="Application.ThreadPool" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPool" />
+        <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.FactoryPatternDemo" />
         <item itemvalue="Application.Main" />
@@ -200,7 +272,9 @@
       <workItem from="1531382681611" duration="11000" />
       <workItem from="1531392013726" duration="75000" />
       <workItem from="1531394032208" duration="124000" />
-      <workItem from="1531484358700" duration="4061000" />
+      <workItem from="1531484358700" duration="4769000" />
+      <workItem from="1531617270552" duration="5461000" />
+      <workItem from="1531640795968" duration="7882000" />
     </task>
     <task id="LOCAL-00001" summary="更新代码">
       <created>1530783625904</created>
@@ -223,18 +297,25 @@
       <option name="project" value="LOCAL" />
       <updated>1530861276027</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Java操作Redis">
+      <created>1531489195588</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531489195588</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15126000" />
+    <option name="totallyTimeSpent" value="29177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5019531" side_tool="true" weight="0.32957748" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.09830729" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Kite" order="4" />
@@ -252,16 +333,16 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49804688" weight="0.015492958" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986979" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.9016927" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06640625" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5895628" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5895628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="JRebel" order="2" side_tool="true" />
@@ -305,7 +386,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="更新代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新代码" />
+    <MESSAGE value="Java操作Redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java操作Redis" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -315,6 +397,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/zscdumin/MultiThreadTest/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zscdumin/RedisTest/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zscdumin/JavaDemo/FactoryPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -403,12 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -444,12 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,10 +601,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zscdumin/RedisTest/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="17" column="81" lean-forward="true" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+        <state relative-caret-position="140">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zscdumin/MultiThreadTest/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zscdumin/MultiThreadTest/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#1175#1303#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
           </folding>
         </state>
       </provider>
